@@ -23,14 +23,14 @@ calc_dict = {
 # print(calc_dict["*"](4,8))
 
 print(art.logo)
-first_num = int(input("Write the first number to calculate : "))
+first_num = float(input("Write the first number to calculate : "))
 print(f"The number you have entered is {first_num}")
 continue_calculating = True
 while continue_calculating:
 
     oper_choice = input("Choose one of the following math operation : '+', '-' , '*' or '/' : ")
     print(f"The following operation {oper_choice} is chosen")
-    last_num = int(input("Write down the second number to operate : "))
+    last_num = float(input("Write down the second number to operate : "))
     print(f"The second number is {last_num}")
 
     result = calc_dict[oper_choice](first_num, last_num)
