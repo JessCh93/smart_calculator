@@ -1,3 +1,6 @@
+import art
+
+
 def add(n1, n2):
     return n1 + n2
 
@@ -18,6 +21,8 @@ calc_dict = {
 }
 
 # print(calc_dict["*"](4,8))
+
+print(art.logo)
 first_num = int(input("Write the first number to calculate : "))
 print(f"The number you have entered is {first_num}")
 continue_calculating = True
